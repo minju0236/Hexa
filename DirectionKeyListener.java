@@ -26,7 +26,7 @@ public class DirectionKeyListener implements KeyListener {
         case KeyEvent.VK_UP:
             page.moveUp();
             break;
-        case KeyEvent.VK_DOWN:
+        case KeyEvent.VK_SPACE:
             page.moveDown();
             break;
         }
